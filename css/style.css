@@ -1,0 +1,201 @@
+/* Google Fonts Montserret and Poppins */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900');
+
+/* Global CSS */
+body{
+	color: #333;
+	font-size: 16px;
+	background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+a{
+	color: #fde52c;
+	transition: 0.4s ease-in-out;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Header Section CSS Start */
+
+/* Header Section CSS End */
+
+
+/* Fun Facts Section Start */
+.funfacts-section {
+    background-color: #06294a;
+    padding: 50px;
+    text-align: center;
+}
+.funfacts-section h2{
+	color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.funfacts-section p{
+	color: #fff;
+}
+/* Fun Facts Section End */
+
+
+/* Consulting Section Start */
+.consulting-section{
+	padding: 100px 0px;
+	position: relative;
+}
+.consulting-section::before{
+	content: "";
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background: #fde52c;
+    top: 0;
+    left: 18%;
+}
+.consulting-video{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -70px;
+}
+.consulting-section h2{
+    color: #002e5b;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.consulting-section h5{
+    color: #858585;
+    padding-bottom: 5px;
+}
+.consulting-section a{
+	color: #002e5b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    letter-spacing: .5px;
+    transition: 0.4s ease-in-out;
+}
+.consulting-section a:hover{
+	letter-spacing: 1px;
+}
+/* Consulting Section Start */
+
+
+/* Testimonial Section Start */
+.testimonial-section{
+	background-color: #06294a;
+	padding: 100px;
+	text-align: center;
+}
+.testimonial-section .fa{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+.testimonial-section p{
+	color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.testimonial-section h4{
+	color: #fff;
+	font-size: 20px;
+}
+/* Testimonial Section End */
+
+
+
+/* Contact Section Start */
+.contact-section{
+	padding: 100px 0px;
+}
+.contact-section h2{
+    color: #002e5b;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contact-section p{
+    color: #666666;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.contact-box{
+	box-shadow: 3px 3px 15px #eee;
+}
+.contact-details{
+	padding: 30px;
+}
+.contact-details h4{
+    color: #002e5b;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact-info .fa{
+	color: #002e5b;
+}
+.contact-info p{
+	width: 100%;
+	text-align: left;
+	padding-bottom: 10px;
+	color: #002e5b;
+}
+/* Contact Section End */
+
+
+/* Footer Section CSS Start */
+footer{
+	background-color: #002e5b;
+	padding: 20px 0px;
+}
+footer p{
+	color: #fff;
+}
+.social-menu{
+	text-align: right;
+}
+.social-menu ul li{
+	display: inline;
+	margin: 0px 7px;
+}
+.social-menu ul li .fa{
+	color: #fff;
+	transition: 0.4s ease-in-out;
+}
+.social-menu ul li .fa:hover{
+	color: #fde52c;
+}
+/* Footer Section CSS End */
+
